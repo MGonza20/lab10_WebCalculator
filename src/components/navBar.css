@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'NasaFont';
+    src: url(./nasalization-rg.otf) format('opentype');
+    font-style: normal;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    z-index: 1000;
+    padding: 50px 10px;
+    position: fixed;
+    width: 100%;
+    font-family: 'NasaFont';
+    font-size: 30px;
+}
+
+.navBody{
+    display: flex;
+}
+
+.navBodyCont {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+.toggleBtnCont{
+    flex-basis: 100%;
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
